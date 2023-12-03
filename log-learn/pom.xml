@@ -1,0 +1,37 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>com.ben.java</groupId>
+        <artifactId>javaweb-learn</artifactId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
+
+    <groupId>com.ben.java.log</groupId>
+    <artifactId>log-learn</artifactId>
+    <packaging>pom</packaging>
+
+    <name>log-learn</name>
+    <url>http://maven.apache.org</url>
+    <modules>
+        <module>log-jul</module>
+        <module>log-jcl</module>
+        <module>log-log4j</module>
+        <module>log-log4j2</module>
+        <module>log-logback</module>
+        <module>log-slf4j</module>
+    </modules>
+
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    </properties>
+
+    <dependencies>
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+<!--            <version>4.12</version>-->
+<!--            <scope>test</scope>-->
+        </dependency>
+    </dependencies>
+</project>

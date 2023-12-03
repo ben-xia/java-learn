@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" native2AsciiForPropertiesFiles="true">
+    <file url="file://$PROJECT_DIR$/java-core/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/java-core/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/log-learn/log-jcl/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/log-learn/log-jcl/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/log-learn/log-jul/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/log-learn/log-jul/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/log-learn/log-log4j/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/log-learn/log-log4j/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/log-learn/log-log4j2/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/log-learn/log-log4j2/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/log-learn/log-logback/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/log-learn/log-logback/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/log-learn/log-slf4j/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/log-learn/log-slf4j/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/log-learn/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/log-learn/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/resources" charset="UTF-8" />
+    <file url="PROJECT" charset="UTF-8" />
+  </component>
+</project>

@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--https://blog.csdn.net/wkh___/article/details/105856208-->
+<configuration scan="true" scanPeriod="30 seconds">
+    <!--集中配置管理-->
+    <property name="logbase" value="/logs/java/"></property>
+
+    <!--输出到控制台-->
+    <appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
+        <!--控制输出流对象,默认System.out 改为 System.error-->
+        <target>System.out</target>
+        <!--日志消息格式配置-->
+        <encoder class="ch.qos.logback.classic.encoder.PatternLayoutEncoder">
+            <pattern>%date{yyyy-MM-dd HH:mm:ss.SSS} %-10level[%thread]%logger{56}.%method:%L -%msg%n</pattern>
+            <charset>UTF-8</charset>
+        </encoder>
+    </appender>
+
+    <!--输出到info文件配置-->
+    <appender name="logInfoFile" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <encoder>
+            <pattern>%date{yyyy-MM-dd HH:mm:ss.SSS} %-10level[%thread]%logger{56}.%method:%L -%msg%n</pattern>
+            <charset>UTF-8</charset>
+        </encoder>
+        <filter class="ch.qos.logback.classic.filter.LevelFilter">
+            <!--error级别-->
+            <level>info</level>
+            <!--
+            onMatch="ACCEPT" 表示匹配该级别及以上
+            onMatch="DENY" 表示不匹配该级别及以上
+            -->
+            <onMatch>DENY</onMatch>
+            <onMismatch>ACCEPT</onMismatch>
+        </filter>
+
+        <!--
+            通过rollingPolicy设置日志滚动的策略，这是使用按照时间滚动
+            fileNamePattern属性设置滚动生成文件的格式,这里设置的精确到天，也就是按照天滚动，如果时间设置精确到秒，就按秒来滚动
+            maxHistory属性设定最大的文件数，比如按天滚动，这里设置了30天，在第31天日志生成的时候，第一天的日志就会被删掉
+        -->
+        <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+            <!--文件名策略-->
+            <FileNamePattern>${logbase}info/%d{yyyy-MM-dd}.log</FileNamePattern>
+            <!--日志文件保留天数-->
+            <MaxHistory>30</MaxHistory>
+        </rollingPolicy>
+    </appender>
+
+    <!--输出到error文件配置-->
+    <appender name="logErrorFile" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <encoder>
+            <pattern>%date{yyyy-MM-dd HH:mm:ss.SSS} %-10level[%thread]%logger{56}.%method:%L -%msg%n</pattern>
+            <charset>UTF-8</charset>
+        </encoder>
+        <filter class="ch.qos.logback.classic.filter.LevelFilter">
+            <!--error级别-->
+            <level>ERROR</level>
+            <onMatch>ACCEPT</onMatch>
+            <onMismatch>DENY</onMismatch>
+        </filter>
+
+        <!--
+            通过rollingPolicy设置日志滚动的策略，这是使用按照时间滚动
+            fileNamePattern属性设置滚动生成文件的格式,这里设置的精确到天，也就是按照天滚动，如果时间设置精确到秒，就按秒来滚动
+            maxHistory属性设定最大的文件数，比如按天滚动，这里设置了30天，在第31天日志生成的时候，第一天的日志就会被删掉
+        -->
+        <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+            <!--文件名策略-->
+            <FileNamePattern>${logbase}error/%d{yyyy-MM-dd}.log</FileNamePattern>
+            <!--日志文件保留天数-->
+            <MaxHistory>30</MaxHistory>
+        </rollingPolicy>
+    </appender>
+
+    <!--输出到邮箱-->
+    <appender name="logErrorEmail" class="ch.qos.logback.classic.net.SMTPAppender">
+        <filter class="ch.qos.logback.classic.filter.LevelFilter">
+            <!--error级别-->
+            <level>ERROR</level>
+            <onMatch>ACCEPT</onMatch>
+            <onMismatch>DENY</onMismatch>
+        </filter>
+        <smtpHost>smtp.126.com</smtpHost>
+        <To>1428381557@qq.com</To>
+        <username>18121419497</username>
+        <password>HCNWVDYOBDPTBYHN</password>
+        <From>keeping1990@126.com</From>
+        <asynchronousSending>false</asynchronousSending>
+        <Subject>财税金结算平台告警: %logger{20} - %m</Subject>
+        <layout class="ch.qos.logback.classic.html.HTMLLayout">
+            <pattern>%date{yyyy-MM-dd HH:mm:ss.SSS} %-5level[%thread]%logger{56}.%method:%L -%msg%n</pattern>
+        </layout>
+    </appender>
+
+    <!--异步日志-->
+    <appender name="async" class="ch.qos.logback.classic.AsyncAppender">
+        <!--        引用某个具体的appender-->
+        <appender-ref ref="logErrorFile"/>
+    </appender>
+
+    <!--root logger(父日志记录器) 配置-->
+    <root level="ERROR">
+        <appender-ref ref="STDOUT"/>
+        <appender-ref ref="logInfoFile"/>
+        <appender-ref ref="logErrorFile"/>
+        <appender-ref ref="logErrorEmail"/>
+    </root>
+
+    <!--自定义 logger对象
+     additivity="false": 自定义 logger对象是否继承 root logger对象
+    -->
+    <logger name="com.ben.java.algorithm" level="error" additivity="false">
+        <appender-ref ref="async"/>
+    </logger>
+</configuration>

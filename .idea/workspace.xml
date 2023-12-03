@@ -1,0 +1,641 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="ALL" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="18f62d13-0986-4dea-9dae-5642f4f47382" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/java-core/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/algorithm/bitwise/BitwiseOperators.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/algorithm/encryption/AESTest01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/algorithm/encryption/Base64ImageTest02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/algorithm/encryption/Base64Test01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/algorithm/encryption/DESTest01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/algorithm/encryption/DSATest01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/algorithm/encryption/DSATest02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/algorithm/encryption/HexTest01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/algorithm/encryption/MD5Test01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/algorithm/encryption/PBETest01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/algorithm/encryption/RSATest01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/algorithm/encryption/SHATest01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/algorithm/encryption/URLEncodeTest01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/algorithm/encryption/package-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/algorithm/leetcode/LRUCache.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/algorithm/leetcode/LeetcodeTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/algorithm/sort/BinarySearch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/algorithm/sort/BubbleSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/algorithm/sort/HeapSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/algorithm/sort/InsertSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/algorithm/sort/MergeSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/algorithm/sort/QuickSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/algorithm/sort/SelectionSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/core/annotation/Constraints.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/core/annotation/DBTable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/core/annotation/FilterPath.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/core/annotation/Member.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/core/annotation/PasswordUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/core/annotation/SQLInteger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/core/annotation/SQLString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/core/annotation/TableCreator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/core/annotation/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/core/annotation/Testable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/core/annotation/UseCase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/core/annotation/UseCaseTracker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/core/annotation/package-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/core/classLoader/FileClassLoader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/core/classLoader/FileUrlClassLoader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/core/classLoader/NetClassLoader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/core/datetime/CalendarTest01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/core/exception/ExceptionTest01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/core/exception/package-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/core/file/FileTest01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/core/file/FileTest02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/core/file/FileTest03.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/core/file/package-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/core/guava/concurrency/ListenableFutureTest01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/core/guava/function/lambda/Item.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/core/guava/function/lambda/LambdaTest01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/core/guava/function/stream/StreamTest01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/core/innerclass/AnonymousClasses.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/core/innerclass/AnonymousInner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/core/innerclass/Outer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/core/innerclass/TestInnerClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/core/innerclass/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/core/innerclass/package-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/core/json/jackson/JacksonClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/core/json/jackson/MyJsonFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/core/json/jackson/MyObjectCodec.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/core/json/jackson/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/core/lambda/Java8Tester.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/core/lambda/Java8Tester3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/core/lambda/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/core/lambda/StreamTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/core/lambda/TestFunction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/core/lambda/ThreadUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/core/lambda/lambdaDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/core/lambda/package-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/core/log/JCLTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/core/log/JULTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/core/log/Log4jTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/core/log/Slf4jTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/core/log/package-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/core/math/BigDecimalTest01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/core/netio/heartbeat/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/core/netio/heartbeat/KeepAlive.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/core/netio/heartbeat/Server.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/core/netio/heartbeat/package-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/core/netio/io/BufferStreamTest01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/core/netio/io/BufferedReaderTest01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/core/netio/io/BufferedReaderTest02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/core/netio/io/BufferedReaderTest03.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/core/netio/io/BufferedWriteTest01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/core/netio/io/ByteArrayInputStreamTest01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/core/netio/io/ByteArrayOutputStreamTest01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/core/netio/io/CopyFile01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/core/netio/io/CopyFile02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/core/netio/io/CopyFile03.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/core/netio/io/CopyFile04.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/core/netio/io/DataInputStreamTest01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/core/netio/io/DataOutputStreamTest01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/core/netio/io/FileInputStreamTest01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/core/netio/io/FileInputStreamTest02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/core/netio/io/FileInputStreamTest03.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/core/netio/io/FileInputStreamTest04.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/core/netio/io/FileOutputStreamTest01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/core/netio/io/FileReaderTest01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/core/netio/io/ObjectOutputStreamTest01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/core/netio/io/PrintStreamTest01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/core/netio/io/package-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/core/netio/io/serializable/ObjectInputStreamTest01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/core/netio/io/serializable/ObjectOutputStreamTest01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/core/netio/io/serializable/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/core/netio/io/serializable/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/core/netio/io/serializable/package-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/core/netio/net/LocalMAC.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/core/netio/net/ProxyTest01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/core/netio/net/ProxyTest02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/core/netio/net/package-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/core/netio/nio/ByteBufferTest01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/core/netio/nio/ByteBufferTest02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/core/netio/nio/netty/ByteBufTest01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/core/netio/nio/netty/ChatServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/core/netio/nio/netty/ChatServerInitializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/core/netio/nio/netty/EchoClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/core/netio/nio/netty/EchoClientHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/core/netio/nio/netty/EchoServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/core/netio/nio/netty/EchoServerHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/core/netio/nio/netty/HttpRequestHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/core/netio/nio/netty/LogEvent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/core/netio/nio/netty/LogEventBroadcaster.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/core/netio/nio/netty/LogEventEncoder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/core/netio/nio/netty/PlainNioServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/core/netio/nio/netty/PlainOioServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/core/netio/nio/netty/ScheduledExecutorServiceTest01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/core/netio/nio/netty/SecureChatServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/core/netio/nio/netty/SecureChatServerIntializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/core/netio/nio/netty/TextWebSocketFrameHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/core/netio/nio/netty/memcached/MemcachedRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/core/netio/nio/netty/memcached/MemcachedRequestEncoder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/core/netio/nio/netty/memcached/MemcachedRequestEncoderTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/core/netio/nio/netty/memcached/MemcachedResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/core/netio/nio/netty/memcached/MemcachedResponseDecoder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/core/netio/nio/netty/memcached/MemcachedResponseDecoderTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/core/netio/nio/netty/memcached/Opcode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/core/netio/nio/netty/memcached/Status.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/core/netio/nio/netty/memcached/package-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/core/netio/nio/netty/package-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/core/netio/nio/package-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/core/netio/rmi/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/core/netio/rmi/PersonClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/core/netio/rmi/PersonServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/core/netio/rmi/Person_Skeleton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/core/netio/rmi/Person_Stub.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/core/reflect/ArrayTest01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/core/reflect/ClassInitialization.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/core/reflect/ClassTest01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/core/reflect/ClassTest10.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/core/reflect/ClazzDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/core/reflect/ConstructorTest08.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/core/reflect/ConstructorTest09.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/core/reflect/CustomerService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/core/reflect/FieldTest04.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/core/reflect/FieldTest05.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/core/reflect/MethodTest06.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/core/reflect/MethodTest07.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/core/reflect/ReflectTest02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/core/reflect/ReflectTest03.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/core/reflect/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/core/reflect/classInfo.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/core/reflect/package-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/core/regex/PatternTest01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/core/serialize/JdkSerilizable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/core/serialize/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/core/serialize/json/FastJsonTest01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/core/serialize/json/SexDeserialize.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/core/serialize/json/SexSerializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/core/serialize/json/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/core/serialize/json/UserGroup.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/core/serialize/json/json解析" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/core/thread/DeadLock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/core/thread/aqs/Consumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/core/thread/aqs/Mutil_Producer_ConsumerByCondition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/core/thread/aqs/Mutil_Producer_ConsumerByCondition2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/core/thread/aqs/Producer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/core/thread/aqs/ReenterLock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/core/thread/aqs/ResourceByCondition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/core/thread/aqs/Single_Producer_ConsumerByObject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/core/thread/aqs/Single_Producer_ConsumerBySemaphore.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/core/thread/aqs/package-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/core/thread/cas/package-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/core/thread/concurrent/CallableAndFuture02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/core/thread/concurrent/CallableAndFuture03.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/core/thread/concurrent/CallableAndFuture04.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/core/thread/concurrent/CompletableFutureTest01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/core/thread/concurrent/CompletableFutureTest02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/core/thread/concurrent/CompletableFutureTest03.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/core/thread/concurrent/ForkJoinTest01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/core/thread/concurrent/FutureTaskTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/core/thread/concurrent/LogWriter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/core/thread/concurrent/RunnableAndCallable2Future.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/core/thread/concurrent/ThreadPoolExecutorTest01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/core/thread/concurrent/ThreadPoolExecutorTest02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/core/thread/concurrent/ThreadPoolExecutorTest03.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/core/thread/concurrent/ThreadPoolExecutorTest04.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/core/thread/concurrent/ThreadPoolExecutorTest05.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/core/thread/concurrent/package-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/core/thread/countDownLatch/ApplicationStartupUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/core/thread/countDownLatch/BaseHealthChecker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/core/thread/countDownLatch/CacheHealthChecker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/core/thread/countDownLatch/CountDownLatchTest01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/core/thread/countDownLatch/DatabaseHealthChecker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/core/thread/countDownLatch/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/core/thread/countDownLatch/NetworkHealthChecker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/core/thread/escape/ThreadThisEscape.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/core/thread/escape/package-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/core/thread/interrupt/FileScanner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/core/thread/interrupt/InterruptCheck.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/core/thread/interrupt/Interrupted.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/core/thread/interrupt/TestStop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/core/thread/interrupt/ThreadStopSafeInterrupted.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/core/thread/interrupt/ThreadStopUnSafe.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/core/thread/interrupt/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/core/thread/interrupt/package-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/core/thread/jmm/DoubleCheckLock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/core/thread/jmm/FinalExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/core/thread/jmm/FinalReferenceExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/core/thread/jmm/package-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/core/thread/package-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/core/thread/queue/package-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/core/thread/semaphore/C.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/core/thread/semaphore/SemaphoreMutex.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/core/thread/semaphore/SemaphoreTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/core/thread/semaphore/package-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/core/thread/syn/AccountingSync.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/core/thread/syn/AccountingSync01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/core/thread/syn/AccountingSync02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/core/thread/syn/AccountingSyncBad.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/core/thread/syn/AccountingSyncClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/core/thread/syn/InterruputSleepThread3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/core/thread/syn/InterruputThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/core/thread/syn/SynchronizedBlocked.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/core/thread/syn/package-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/core/thread/threadlocal/ThreadLocalTest01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/core/utils/AmountUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/core/utils/Base64Utils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/core/utils/CacheUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/core/utils/FTPUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/core/utils/HTTPSUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/core/utils/HTTPUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/core/utils/JdbcUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/core/utils/JodaTimeUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/core/utils/JsonUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/core/utils/MD5Utils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/core/utils/PrintObjectHeader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/core/utils/PropertiesUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/core/utils/SFTPUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/core/utils/SignUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/core/utils/package-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/gof/ResultMsg.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/gof/behavioral_model/chain/builderchain/AuthHandle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/gof/behavioral_model/chain/builderchain/BuilderChainClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/gof/behavioral_model/chain/builderchain/Handler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/gof/behavioral_model/chain/builderchain/LoginHandle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/gof/behavioral_model/chain/builderchain/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/gof/behavioral_model/chain/builderchain/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/gof/behavioral_model/chain/builderchain/ValidateHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/gof/behavioral_model/chain/package-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/gof/behavioral_model/chain/primarychain/AuthHandle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/gof/behavioral_model/chain/primarychain/ChainClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/gof/behavioral_model/chain/primarychain/Handler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/gof/behavioral_model/chain/primarychain/LoginHandle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/gof/behavioral_model/chain/primarychain/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/gof/behavioral_model/chain/primarychain/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/gof/behavioral_model/chain/primarychain/ValidateHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/gof/behavioral_model/command/package-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/gof/behavioral_model/criteria/IMessageFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/gof/behavioral_model/criteria/Message.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/gof/behavioral_model/criteria/MessageListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/gof/behavioral_model/criteria/ServerityFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/gof/behavioral_model/criteria/TimeFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/gof/behavioral_model/criteria/TypeFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/gof/behavioral_model/criteria/package-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/gof/behavioral_model/delegate/Boss.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/gof/behavioral_model/delegate/DelegateClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/gof/behavioral_model/delegate/EmployeeA.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/gof/behavioral_model/delegate/EmployeeB.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/gof/behavioral_model/delegate/IEmployee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/gof/behavioral_model/delegate/Leader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/gof/behavioral_model/delegate/package-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/gof/behavioral_model/iterator/package-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/gof/behavioral_model/observer/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/gof/behavioral_model/observer/ConcreteObserver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/gof/behavioral_model/observer/ConcreteSubject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/gof/behavioral_model/observer/Observer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/gof/behavioral_model/observer/Subject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/gof/behavioral_model/observer/guava/GuavaEvent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/gof/behavioral_model/observer/guava/GuavaObserverClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/gof/behavioral_model/observer/java/NewsPaper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/gof/behavioral_model/observer/java/Reader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/gof/behavioral_model/observer/java/javaObserverClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/gof/behavioral_model/observer/listener/EventSource01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/gof/behavioral_model/observer/listener/EventSource02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/gof/behavioral_model/observer/listener/IEvent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/gof/behavioral_model/observer/listener/IEventListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/gof/behavioral_model/observer/listener/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/gof/behavioral_model/observer/listener/package-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/gof/behavioral_model/observer/mouseevent/MouseEventObserverClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/gof/behavioral_model/observer/mouseevent/core/Event.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/gof/behavioral_model/observer/mouseevent/core/EventContext.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/gof/behavioral_model/observer/mouseevent/core/EventListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/gof/behavioral_model/observer/mouseevent/handler/Mouse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/gof/behavioral_model/observer/mouseevent/handler/MouseEventListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/gof/behavioral_model/observer/mouseevent/handler/MouseEventType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/gof/behavioral_model/observer/package-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/gof/behavioral_model/package-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/gof/behavioral_model/state/package-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/gof/behavioral_model/strategy/package-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/gof/behavioral_model/strategy/pay/AliPay.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/gof/behavioral_model/strategy/pay/PayClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/gof/behavioral_model/strategy/pay/PayOrder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/gof/behavioral_model/strategy/pay/Payment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/gof/behavioral_model/strategy/pay/PaymentFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/gof/behavioral_model/strategy/pay/UnionPay.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/gof/behavioral_model/strategy/pay/WechatPay.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/gof/behavioral_model/strategy/v1/BackDoor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/gof/behavioral_model/strategy/v1/BlockEnemy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/gof/behavioral_model/strategy/v1/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/gof/behavioral_model/strategy/v1/Context.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/gof/behavioral_model/strategy/v1/GivenGreenLight.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/gof/behavioral_model/strategy/v1/IStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/gof/behavioral_model/strategy/v2/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/gof/behavioral_model/strategy/v2/StrategyFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/gof/behavioral_model/template/AbastractCourse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/gof/behavioral_model/template/JavaCourse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/gof/behavioral_model/template/PythonCourse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/gof/behavioral_model/template/TemplateClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/gof/behavioral_model/template/package-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/gof/creative_mode/builder/package-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/gof/creative_mode/builder/v1/BuilderClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/gof/creative_mode/builder/v1/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/gof/creative_mode/builder/v1/PersonBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/gof/creative_mode/builder/v2/ErrorCodeEnums.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/gof/creative_mode/builder/v2/ResponseDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/gof/creative_mode/builder/v2/ResponseHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/gof/creative_mode/factory/abstractfactory/AbstractfactoryTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/gof/creative_mode/factory/abstractfactory/CourseFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/gof/creative_mode/factory/abstractfactory/INote.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/gof/creative_mode/factory/abstractfactory/IVideo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/gof/creative_mode/factory/abstractfactory/JavaCourseFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/gof/creative_mode/factory/abstractfactory/JavaNote.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/gof/creative_mode/factory/abstractfactory/JavaVideo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/gof/creative_mode/factory/abstractfactory/PythonCourseFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/gof/creative_mode/factory/abstractfactory/PythonNote.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/gof/creative_mode/factory/abstractfactory/PythonVideo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/gof/creative_mode/factory/abstractfactory/package-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/gof/creative_mode/factory/factorymethod/FactorymethodTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/gof/creative_mode/factory/factorymethod/ICourseFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/gof/creative_mode/factory/factorymethod/JavaCourseFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/gof/creative_mode/factory/factorymethod/PythonCourseFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/gof/creative_mode/factory/factorymethod/package-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/gof/creative_mode/factory/package-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/gof/creative_mode/factory/simplefactory/ICourse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/gof/creative_mode/factory/simplefactory/JavaCourse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/gof/creative_mode/factory/simplefactory/PythonCourse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/gof/creative_mode/factory/simplefactory/package-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/gof/creative_mode/factory/simplefactory/v1/CourseFactoryV1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/gof/creative_mode/factory/simplefactory/v1/SimplefactoryV1Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/gof/creative_mode/package-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/gof/creative_mode/prototype/CloneClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/gof/creative_mode/prototype/PrototypeObject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/gof/creative_mode/prototype/ReferenceObject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/gof/creative_mode/prototype/package-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/gof/creative_mode/singleton/Singleton01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/gof/creative_mode/singleton/Singleton02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/gof/creative_mode/singleton/SingletonEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/gof/creative_mode/singleton/package-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/gof/package-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/gof/structural_model/adapter/genel/classadapter/AC220.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/gof/structural_model/adapter/genel/classadapter/ClassadapterTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/gof/structural_model/adapter/genel/classadapter/DC5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/gof/structural_model/adapter/genel/classadapter/PowerAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/gof/structural_model/adapter/genel/interfaceadapter/AC220.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/gof/structural_model/adapter/genel/interfaceadapter/DC.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/gof/structural_model/adapter/genel/interfaceadapter/PowerAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/gof/structural_model/adapter/genel/objectadapter/AC220.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/gof/structural_model/adapter/genel/objectadapter/DC5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/gof/structural_model/adapter/genel/objectadapter/ObjectadapterTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/gof/structural_model/adapter/genel/objectadapter/PowerAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/gof/structural_model/adapter/package-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/gof/structural_model/adapter/passport/PasswortService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/gof/structural_model/adapter/passport/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/gof/structural_model/adapter/passport/v1/IPasswortForThird.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/gof/structural_model/adapter/passport/v1/PasswortForThirdAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/gof/structural_model/adapter/passport/v1/package-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/gof/structural_model/adapter/passport/v2/IPasswortForThirdV2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/gof/structural_model/adapter/passport/v2/PasswortForThirdAdapterV2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/gof/structural_model/adapter/passport/v2/adapters/AbstraceAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/gof/structural_model/adapter/passport/v2/adapters/ILoginAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/gof/structural_model/adapter/passport/v2/adapters/LoginForEmailAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/gof/structural_model/adapter/passport/v2/adapters/LoginForPhoneAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/gof/structural_model/adapter/passport/v2/adapters/LoginForTokenAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/gof/structural_model/adapter/passport/v2/adapters/LoginForWechatAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/gof/structural_model/adapter/passport/v2/package-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/gof/structural_model/bridge/course/AbstractCourse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/gof/structural_model/bridge/course/ICourse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/gof/structural_model/bridge/course/INote.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/gof/structural_model/bridge/course/IVideo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/gof/structural_model/bridge/course/JavaCourse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/gof/structural_model/bridge/course/JavaNote.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/gof/structural_model/bridge/course/JavaVideo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/gof/structural_model/bridge/course/PythonCourse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/gof/structural_model/bridge/course/PythonNote.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/gof/structural_model/bridge/course/PythonVideo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/gof/structural_model/bridge/message/AbastractMessage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/gof/structural_model/bridge/message/BridgeTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/gof/structural_model/bridge/message/EmailMessage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/gof/structural_model/bridge/message/IMessage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/gof/structural_model/bridge/message/NomalMessage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/gof/structural_model/bridge/message/SmsMessage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/gof/structural_model/bridge/message/UrgencyMessage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/gof/structural_model/bridge/package-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/gof/structural_model/composite/CompositeTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/gof/structural_model/composite/Direcotry.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/gof/structural_model/composite/File.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/gof/structural_model/composite/Folder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/gof/structural_model/composite/package-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/gof/structural_model/decorator/logger/JSONLogger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/gof/structural_model/decorator/logger/JSONLoggerFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/gof/structural_model/decorator/logger/LoggerDecorator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/gof/structural_model/decorator/logger/LoggerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/gof/structural_model/decorator/package-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/gof/structural_model/decorator/v1/Battercake.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/gof/structural_model/decorator/v1/BattercakeWithEgg.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/gof/structural_model/decorator/v1/BattercakeWithEggAndSauage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/gof/structural_model/decorator/v1/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/gof/structural_model/decorator/v1/package-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/gof/structural_model/decorator/v2/BaseBattercakeV2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/gof/structural_model/decorator/v2/BattercakeV2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/gof/structural_model/decorator/v2/BattercakeV2Decorator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/gof/structural_model/decorator/v2/DecoratorTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/gof/structural_model/decorator/v2/EggDecorator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/gof/structural_model/decorator/v2/SauageDecorator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/gof/structural_model/facade/package-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/gof/structural_model/flyweight/genel/ConcreteFlyweight.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/gof/structural_model/flyweight/genel/FlyweightFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/gof/structural_model/flyweight/genel/IFlyweight.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/gof/structural_model/flyweight/jdk/IntegerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/gof/structural_model/flyweight/jdk/StringTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/gof/structural_model/flyweight/package-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/gof/structural_model/package-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/gof/structural_model/proxy/AbstractConnectionProxy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/gof/structural_model/proxy/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/gof/structural_model/proxy/LazyConnectionProxy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/gof/structural_model/proxy/LazyDataSource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/gof/structural_model/proxy/PooledConnectionProxy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/gof/structural_model/proxy/PooledDataSource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/gof/structural_model/proxy/cglib/MyClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/gof/structural_model/proxy/cglib/MyMethodInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/gof/structural_model/proxy/cglib/ProxyFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/gof/structural_model/proxy/cglib/SomeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/gof/structural_model/proxy/cglib/package-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/gof/structural_model/proxy/jdk/MyClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/gof/structural_model/proxy/jdk/MyInvocationHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/gof/structural_model/proxy/jdk/SomeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/gof/structural_model/proxy/jdk/SomeServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/gof/structural_model/proxy/jdk/package-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/gof/structural_model/proxy/statics/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/gof/structural_model/proxy/statics/Target.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/gof/structural_model/proxy/statics/TargetImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/gof/structural_model/proxy/statics/TargetProxy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/java/com/ben/java/spring/BookFactoryBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/resources/META-INF.services/com.fasterxml.jackson.core.JsonFactory" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/resources/factorybean.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/resources/jdbc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/resources/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/resources/logback.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/resources/logging.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/resources/person.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/resources/picture/Complexity.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/resources/picture/DispatcherServlet.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/resources/picture/Executor-frame.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/resources/picture/Linear_List.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/resources/picture/O(n).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/resources/picture/OSI 七层模型和TCPIP模型及对应协议.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/resources/picture/Singly_linked_list.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/resources/picture/Static-init.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/resources/picture/T(n).jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/resources/picture/algo.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/resources/picture/class_Loading_process.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/resources/picture/has_head_link.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/resources/picture/java调用dll动态库的三种方式.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/resources/picture/no_Linear List.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/resources/picture/thread-state.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/resources/picture/volatile.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/main/resources/rebel.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-core/src/test/java/com/ben/java/AppTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log-learn/log-jcl/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log-learn/log-jcl/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log-learn/log-jul/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log-learn/log-jul/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log-learn/log-jul/src/test/java/com/ben/java/log/JULTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log-learn/log-log4j/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log-learn/log-log4j/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log-learn/log-log4j/src/main/java/com/ben/java/log/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log-learn/log-log4j/src/test/java/com/ben/java/log/Log4jTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log-learn/log-log4j2/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log-learn/log-log4j2/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log-learn/log-logback/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log-learn/log-logback/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log-learn/log-logback/src/main/java/com/ben/java/log/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log-learn/log-logback/src/test/java/com/ben/java/log/AppTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log-learn/log-slf4j/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log-learn/log-slf4j/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log-learn/log-slf4j/src/main/java/com/ben/java/log/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log-learn/log-slf4j/src/test/java/com/ben/java/log/AppTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log-learn/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+  </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="$PROJECT_DIR$/../../../apache-maven-3.5.2" />
+        <option name="useMavenConfig" value="true" />
+        <option name="userSettingsFile" value="D:\work\apache-maven-3.5.2\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="vmOptions" value="-Dfile.encoding=GBK" />
+  </component>
+  <component name="ProjectId" id="2Z13wFtYEtc82PzTImcIpyGk2tA" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "D:/work/project/github/javaweb-learn/doc",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "settings.editor.selected.configurable": "reference.settings.ide.settings.notifications",
+    "spring.configuration.checksum": "0a1935a7b17667de10ea4700bedc8e28",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RebelAgentSelection">
+    <selection>jr</selection>
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\work\project\github\javaweb-learn\doc" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.ben.java.log" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.ben.java.log" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.BitwiseOperators">
+    <configuration name="BitwiseOperators" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ben.java.algorithm.bitwise.BitwiseOperators" />
+      <module name="java-core" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ben.java.algorithm.bitwise.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JULTest.testParent" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="log-jul" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ben.java.log.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.ben.java.log" />
+      <option name="MAIN_CLASS_NAME" value="com.ben.java.log.JULTest" />
+      <option name="METHOD_NAME" value="testParent" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.BitwiseOperators" />
+        <item itemvalue="JUnit.JULTest.testParent" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="18f62d13-0986-4dea-9dae-5642f4f47382" name="Changes" comment="" />
+      <created>1701575995612</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1701575995612</updated>
+      <workItem from="1701575996663" duration="780000" />
+      <workItem from="1701581580226" duration="1131000" />
+      <workItem from="1701583928860" duration="1216000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
