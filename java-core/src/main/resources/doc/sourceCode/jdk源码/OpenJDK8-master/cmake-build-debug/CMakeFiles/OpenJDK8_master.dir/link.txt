@@ -1,0 +1,3 @@
+"D:\software\CLion 2018.3.4\bin\cmake\win\bin\cmake.exe" -E remove -f CMakeFiles\OpenJDK8_master.dir/objects.a
+D:\software\mingw64\bin\ar.exe cr CMakeFiles\OpenJDK8_master.dir/objects.a @CMakeFiles\OpenJDK8_master.dir\objects1.rsp @CMakeFiles\OpenJDK8_master.dir\objects2.rsp
+D:\software\mingw64\bin\g++.exe -g   -Wl,--whole-archive CMakeFiles\OpenJDK8_master.dir/objects.a -Wl,--no-whole-archive  -o OpenJDK8_master.exe -Wl,--out-implib,libOpenJDK8_master.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\OpenJDK8_master.dir\linklibs.rsp
