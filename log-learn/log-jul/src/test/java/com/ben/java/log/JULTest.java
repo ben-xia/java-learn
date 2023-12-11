@@ -65,7 +65,7 @@ public class JULTest {
             logManager.readConfiguration(ins);
 
             //创建日志记录器
-            Logger logger = Logger.getLogger("com.ben.java.core.log");
+            Logger logger = Logger.getLogger("com.ben.java.log");
             //jul的7个日志级别
             logger.severe("severe");
             logger.warning("warning");

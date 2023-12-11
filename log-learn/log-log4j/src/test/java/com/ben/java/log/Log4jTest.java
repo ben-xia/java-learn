@@ -2,6 +2,7 @@ package com.ben.java.log;
 
 import org.apache.log4j.Logger;
 import org.apache.log4j.helpers.LogLog;
+import org.apache.log4j.spi.LoggerFactory;
 import org.junit.Test;
 
 /**
@@ -10,9 +11,10 @@ import org.junit.Test;
  * @date: 2022/10/30
  */
 public class Log4jTest {
+
     @Test
     public void testLog4j01() {
-        //开启Log4j 内置日志记录
+        //开启Log4j 内置日志Debug记录
         LogLog.setInternalDebugging(true);
 
 //        1.初始化配置信息,在入门案例中暂不使用配置文件

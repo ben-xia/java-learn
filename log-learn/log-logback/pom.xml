@@ -24,6 +24,13 @@
             <artifactId>logback-classic</artifactId>
             <version>1.2.9</version>
         </dependency>
+        <!--访问模块与servlet容器(如Tomcat和Jetty)集成,提供通过http来访问日志的功能,
+        我们可以使用logback-access模块来替换tomcat的访问日志;-->
+        <dependency>
+            <groupId>ch.qos.logback</groupId>
+            <artifactId>logback-access</artifactId>
+            <version>1.2.9</version>
+        </dependency>
         <dependency>
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>

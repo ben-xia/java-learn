@@ -18,6 +18,64 @@
     </properties>
 
     <dependencies>
+        <!--slf4j 日志门面(接口)-->
+        <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-api</artifactId>
+            <version>1.7.36</version>
+        </dependency>
+
+        <!--
+        日志实现分两类: 1. 比slf4j出现晚的logback,slf4j-nop,,默认实现了slf4j接口规范;
+                     2. 比slf4j出现早的log4j,jul,都没有实现slf4j接口规范,需要在这两者之间加一个适配层;
+        -->
+        <!-- 1.logback 的日志实现-开始-->
+        <!--        <dependency>-->
+        <!--            <groupId>ch.qos.logback</groupId>-->
+        <!--            <artifactId>logback-classic</artifactId>-->
+        <!--            <version>1.2.9</version>-->
+        <!--        </dependency>-->
+        <!--1.logback 的日志实现-结束-->
+        <!--2.slf4j-nop的日志实现,  其实它是一个日志开关, 引入后不会使用任何日志实现-开始-->
+        <!--        <dependency>-->
+        <!--            <groupId>org.slf4j</groupId>-->
+        <!--            <artifactId>slf4j-nop</artifactId>-->
+        <!--            <version>1.7.36</version>-->
+        <!--        </dependency>-->
+        <!--2.slf4j-nop的日志实现,  其实它是一个日志开关, 引入后不会使用任何日志实现-开始-->
+
+        <!--                          3.log4j 的日志实现-开始                             -->
+        <!--        &lt;!&ndash;log4j适配器&ndash;&gt;
+                <dependency>
+                    <groupId>org.slf4j</groupId>
+                    <artifactId>slf4j-log4j12</artifactId>
+                    <version>1.7.36</version>
+                </dependency>
+                &lt;!&ndash;log4j 实现&ndash;&gt;
+                <dependency>
+                    <groupId>log4j</groupId>
+                    <artifactId>log4j</artifactId>
+                    <version>1.2.17</version>
+                </dependency>-->
+        <!--                          3.log4j 的日志实现-结束                             -->
+
+
+        <!--   4.log4j桥接到Logback-开始     -->
+        <!-- a.注释掉Log4j依赖; b.引入Log4j桥接到slf4j的依赖:log4j-over-slf4j ; c.引入Logback依赖       -->
+        <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>log4j-over-slf4j</artifactId>
+            <version>1.7.36</version>
+        </dependency>
+
+        <dependency>
+            <groupId>ch.qos.logback</groupId>
+            <artifactId>logback-classic</artifactId>
+            <version>1.2.9</version>
+        </dependency>
+
+        <!--  4. log4j桥接到Logback-结束     -->
+
         <dependency>
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
