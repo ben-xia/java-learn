@@ -1,4 +1,4 @@
-package com.taixin.jackson;
+package com.ben.java.core.json.jackson;
 
 import com.fasterxml.jackson.core.JsonFactory;
 
